@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 function PizzaBlock({name, imageUrl, types, sizes, price}) {
+    //states
     const [activeType, setActiveType] = React.useState(types[0]);
     const [activeSize, setActiveSize] = React.useState(sizes[0])
 
